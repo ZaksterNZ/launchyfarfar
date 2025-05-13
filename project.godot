@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="LaunchyFarFar"
+run/main_scene="uid://cbpm7m1uihve6"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
 
 [rendering]
 
